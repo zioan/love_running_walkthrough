@@ -189,6 +189,19 @@ main {
   color: #fafafa;
 }
 
+/* Gallery page styles */
+#photos img {
+  width: 100%;
+
+  /* used to display the alt text */
+  line-height: 1em;
+}
+
+#photos {
+  /* this will remove the white space between the images caused by the default div line-height */
+  line-height: 0;
+}
+
 /* Footer */
 #social-networks {
   text-align: center;
