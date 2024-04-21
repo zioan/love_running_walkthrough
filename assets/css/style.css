@@ -27,6 +27,11 @@ h3 {
   color: #252525;
 }
 
+/* this class will hide content from the user while still keeping it for SEO reasons */
+.hidden-heading {
+  display: none;
+}
+
 /* Header */
 header {
   background-color: #ffffff;
