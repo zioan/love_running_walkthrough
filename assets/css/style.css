@@ -304,8 +304,13 @@ main {
 
   /* Main content */
   main {
-    /* Push main content down to accommodate larger header */
-    margin-top: 79px;
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
   }
 
   /* Hero */
@@ -335,6 +340,24 @@ main {
   /* Gallery */
   #photos {
     column-count: 3;
+  }
+
+  /* Signup */
+  #signup {
+    background-position: center;
+    position: relative;
+  }
+
+  #signup-form {
+    max-width: 400px;
+    position: absolute;
+    top: 150px;
+    left: 10%;
+  }
+
+  #signup-form .join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
   }
 }
 
