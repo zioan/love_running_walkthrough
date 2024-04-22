@@ -234,10 +234,10 @@ main {
   height: 25px
 }
 
-#signup-for .radio-buttons {
+.radio-buttons {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
 
 #signup-form .join-button {
